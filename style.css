@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    background-image: url(peakpx5.jpg);
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 65px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slider{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.slider img{
+    width: 12%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.slider img:hover{
+    width: 25%;
+    transform: scale(1.1);
+}
